@@ -4,13 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String st = "The quick brown fox jumps over the lazy dog.";
+        String str = "The stupid yellow duck every day jumps over the lazy dog.";
 
         //replacing
-        String new_st = st.replace('d', 'f');
+        String newstr = str.replace('d', 'f');
 
-        System.out.println("Original string: " + st);
-        System.out.println("New String: " + new_st);
+        System.out.println("Original string: " + str);
+        System.out.println("New String:      " + newstr);
 
     }
 }
